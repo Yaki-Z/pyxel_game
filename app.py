@@ -1,6 +1,7 @@
 import pyxel
 import math
 import numpy as np
+from sched import scheduler
 
 WINDOW_WIDTH = 120 # 画面の横幅
 WINDOW_HEIGHT = 80 # 画面の高さ
@@ -12,8 +13,6 @@ TIMER_COLOR = 12 # タイマーの色(1~15で設定)
 SUCCESS_COLOR = 11 # 成功メッセージの色(1~15で設定)
 FAILED_COLOR = 8 # 失敗メッセージの色(1~15で設定)
 
-import pyxel
-from sched import scheduler
 
 # タイマー関連
 class Timer:
